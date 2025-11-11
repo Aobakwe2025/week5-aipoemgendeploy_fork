@@ -1,4 +1,6 @@
 // Load environment variables from .env file
+import dotenv from 'dotenv';
+dotenv.config();
 require("dotenv").config();
 
 const express = require("express");
