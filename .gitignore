@@ -74,3 +74,4 @@ azureml-logs/
 .coverage
 *.cover
 htmlcov/
+.env/server.env
