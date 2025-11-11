@@ -1,0 +1,76 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.dist-info/
+*.venv/
+env/
+venv/
+ENV/
+*.sqlite3
+
+# --- NODE / JAVASCRIPT ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+dist/
+build/
+.cache/
+.next/
+out/
+
+# --- FRONTEND BUILD FILES ---
+public/build/
+public/dist/
+*.map
+
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# --- ENVIRONMENT & SECRETS ---
+.env
+*.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.key
+*.pem
+
+
+*.log
+*.tmp
+*.bak
+npm-debug.log*
+yarn-error.log*
+debug.log
+
+*.csv
+*.xlsx
+*.parquet
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# --- CLOUD / DEPLOYMENT ---
+# AWS Elastic Beanstalk
+.elasticbeanstalk/
+.ebextensions/*.bak
+
+# Azure
+azureml-logs/
+.swa/
+*.publishsettings
+
+.coverage
+*.cover
+htmlcov/
