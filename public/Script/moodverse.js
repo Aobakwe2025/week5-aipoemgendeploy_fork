@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://musemind.onrender.com/api";
+const API_BASE_URL = 'https://week5-aipoemgendeploy-fork-f6d0cxggdagac9gw.southafricanorth-01.azurewebsites.net/api';
 
 let moodVerseFormElement = document.querySelector("#form-group");
 moodVerseFormElement.addEventListener("submit", generateMoodPoem);
@@ -71,3 +71,4 @@ function displayPoem(poemText) {
     cursor: "",
   });
 }
+
